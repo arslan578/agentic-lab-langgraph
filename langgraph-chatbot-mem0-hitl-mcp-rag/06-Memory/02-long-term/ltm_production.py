@@ -177,7 +177,7 @@ try:
         config = {"configurable": {"user_id": "test_user_001"}}
 
         print("\n--- Interaction 1: Introduction ---")
-        graph.invoke({"messages": [{"role": "user", "content": "Hi, I am Al Amin and I live in Gulshan, Dhaka."}]}, config)
+        graph.invoke({"messages": [{"role": "user", "content": "Hi, I am Arslan and I live in Gulshan, Dhaka."}]}, config)
 
         print("\n--- Interaction 2: Correction (The Update Test) ---")
         # This should trigger an UPDATE or DELETE+CREATE operation, not just a duplicate add
